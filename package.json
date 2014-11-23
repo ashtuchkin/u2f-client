@@ -1,0 +1,36 @@
+{
+  "name": "u2f-client",
+  "version": "0.1.0",
+  "description": "Access U2F USB/HID keys directly, without browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashtuchkin/u2f-client.git"
+  },
+  "keywords": [
+    "u2f",
+    "hid",
+    "usb",
+    "token",
+    "2-factor",
+    "authentication"
+  ],
+  "author": "Alexander Shtuchkin <ashtuchkin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashtuchkin/u2f-client/issues"
+  },
+  "homepage": "https://github.com/ashtuchkin/u2f-client",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "node-hid": "^0.3.2",
+    "async": "",
+    "psl": "",
+    "request": ""
+  },
+  "devDependencies": {
+    "u2f": "",
+    "mocha": "2"
+  }
+}

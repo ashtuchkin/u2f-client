@@ -24,10 +24,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "node-hid": "^0.3.2",
-    "async": "",
-    "psl": "",
-    "request": ""
+    "async": "^1.4.2",
+    "node-hid": "^0.4.0",
+    "psl": "^1.1.7",
+    "request": "^2.61.0"
   },
   "devDependencies": {
     "u2f": "",
